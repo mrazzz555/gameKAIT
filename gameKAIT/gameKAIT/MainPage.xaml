@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="gameKAIT.MainPage">
+
+    <Grid WidthRequest="50">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <Grid BackgroundColor="White"/>
+        <Label Text="Ну-ка, повтори!" HorizontalOptions="Center" FontSize="Title"  FontFamily="Comic Sans MS" Margin="0, 30, 0, 0"/>
+
+
+
+        
+        <Grid Grid.Row="1" BackgroundColor="#6BF06B"/>
+
+        <StackLayout>
+        <Button Text="Нажмите для старта!"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="start_Click"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>
+
+
+
