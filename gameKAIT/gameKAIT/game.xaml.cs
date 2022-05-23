@@ -80,7 +80,7 @@ namespace gameKAIT
         {
             if (iteration == num - 1)
             {
-                DisplayAlert ("Внимание", "Вы победили!", "ОК");
+                //DisplayAlert ("Внимание", "Вы победили!", "ОК");
                 num++;
                 Play();
                 iteration = 0;
@@ -104,7 +104,7 @@ namespace gameKAIT
         {
             if (iteration == num - 1)
             {
-                DisplayAlert("Внимание", "Вы победили!", "ОК");
+                //DisplayAlert("Внимание", "Вы победили!", "ОК");
                 num++;
                 Play();
                 iteration = 0;
@@ -128,7 +128,7 @@ namespace gameKAIT
         {
             if (iteration == num - 1) // если количество нажатых равно количеству показанных, то победа, старт игры с новой кнопкой и сброс итераций
             {
-                DisplayAlert("Внимание", "Вы победили!", "ОК");
+                //DisplayAlert("Внимание", "Вы победили!", "ОК");
                 num++; // количество показанных тебе кнопок ранее
                 Play();
                 iteration = 0;

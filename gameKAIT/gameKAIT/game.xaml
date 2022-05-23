@@ -11,6 +11,7 @@
                 WidthRequest="250"
                 Margin="0,350,0,0"
                 x:Name="Green"
+                Clicked="Green_Click"
                 />
             <Button BackgroundColor="Gray"
                 VerticalOptions="CenterAndExpand"
@@ -18,6 +19,7 @@
                 HeightRequest="150"
                 WidthRequest="250"
                 x:Name="Red"
+                Clicked="Red_Click"
                 />
             <Button BackgroundColor="Gray"
                 VerticalOptions="CenterAndExpand"
@@ -26,6 +28,7 @@
                 HeightRequest="150"
                 WidthRequest="250"
                 x:Name="Blue"
+                Clicked="Blue_Click"
                 />
             
         </Grid>

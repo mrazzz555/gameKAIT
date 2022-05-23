@@ -19,6 +19,11 @@ namespace gameKAIT
         {
             App.Current.MainPage = new game();
         }
+
+        private void info_click(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new info();
+        }
     }
 }
 

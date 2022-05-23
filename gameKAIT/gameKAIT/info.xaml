@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="gameKAIT.info">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Правила"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" 
+                FontSize="Large"
+                Margin="0, 25, 0, 0"/>
+            <Label Text="1. На экране три кнопки серого цвета, при этом под каждой кнопкой подразумевается свой цвет: синий/красный/зелёный.                                 
+                   2. Кнопки поочерёдно показывают подразумеваемый цвет, создавая последовательность от 3-х до 20-ти повторений.                                              
+                   3. Игрок должен запомнить последовательность, как только кнопки закончат её показывать, они отобразят подразумеваемый цвет, чтобы игрок мог ввести запомненную последовательность. 
+                   4. Если игрок набрал 20 очков (20 пунктов в последовательности), он побеждает. Если игрок введёт неправильную последовательность - проиграл."
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" 
+                FontSize="Large"
+                Margin="0, 25, 0, 0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

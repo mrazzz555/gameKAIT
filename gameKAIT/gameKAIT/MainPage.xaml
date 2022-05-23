@@ -4,24 +4,18 @@
              x:Class="gameKAIT.MainPage">
 
     <Grid WidthRequest="50">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="50"/>
-        </Grid.RowDefinitions>
-
         <Grid BackgroundColor="White"/>
         <Label Text="Ну-ка, повтори!" HorizontalOptions="Center" FontSize="Title"  FontFamily="Comic Sans MS" Margin="0, 30, 0, 0"/>
-
-
-
-        
-        <Grid Grid.Row="1" BackgroundColor="#6BF06B"/>
-
         <StackLayout>
         <Button Text="Нажмите для старта!"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
                 Clicked="start_Click"/>
+
+        <Button Text="Правила!"
+            VerticalOptions="EndAndExpand"
+            HorizontalOptions="CenterAndExpand"
+            Clicked="info_click"/>
         </StackLayout>
     </Grid>
 </ContentPage>
