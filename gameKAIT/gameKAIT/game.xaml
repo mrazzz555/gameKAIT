@@ -30,7 +30,8 @@
                 x:Name="Blue"
                 Clicked="Blue_Click"
                 />
-            
+            <Label Text="x"/>
+
         </Grid>
     </ContentPage.Content>
 </ContentPage>

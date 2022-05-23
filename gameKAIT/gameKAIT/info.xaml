@@ -17,6 +17,11 @@
                 HorizontalOptions="CenterAndExpand" 
                 FontSize="Large"
                 Margin="0, 25, 0, 0"/>
+
+            <Button Text="Назад"
+            VerticalOptions="EndAndExpand"
+            HorizontalOptions="StartAndExpand"
+            Clicked="back_click"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -84,6 +84,7 @@ namespace gameKAIT
                 num++;
                 Play();
                 iteration = 0;
+
             }
             else
             {

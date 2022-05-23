@@ -16,5 +16,10 @@ namespace gameKAIT
         {
             InitializeComponent();
         }
+
+        private void back_click(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new MainPage();
+        }
     }
 }
